@@ -1,0 +1,35 @@
+.app{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.column {
+    width: 20%;
+    border: 2px solid black;
+    padding: 20px;
+}
+
+.card{
+    border: 1px solid black;
+    background-color: rgb(240, 240, 240);
+    padding: 5px;
+    margin-bottom: 10px;
+    min-height: 200px;
+}
+
+.completed{
+    text-decoration: line-through;
+    color: gray;
+}
+
+
+.buttonItem{
+    margin-top: 15px;
+
+}
+
+.head{
+    display: flex;
+    justify-content: center;
+}
